@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: #00FF00;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+#terminal {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#output {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+#input-line {
+    display: flex;
+    align-items: center;
+}
+
+#input-line span {
+    margin-right: 5px;
+}
+
+#command {
+    background: black;
+    color: #00FF00;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-family: monospace;
+    font-size: 16px;
+}
